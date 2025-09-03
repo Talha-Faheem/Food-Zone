@@ -47,6 +47,11 @@ const TopContainer = styled.div`
  padding: 20px;
  min-width: 95vw;
 
+ @media (max-width: 500px) {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+ }
  input{
  padding: 5px;
  border:2px solid #ff4343;
